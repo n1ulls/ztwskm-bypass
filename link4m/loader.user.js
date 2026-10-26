@@ -4,7 +4,7 @@
 // @supportURL   https://discord.gg/bypass-link-rut-gonmeo-bypassmeobypass-com-1385559183163789445
 // @version      1792936930
 // @author       ...
-// @icon         https://cdn.jsdelivr.net/gh/n1ulls/ztwskm-bypass@489cc9d36ca352b6ccbbf2cb69b90d5bcf8e1a7e/assets/icon.png
+// @icon         https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@2ac1a187c8dcaaae4c6c76bf7f59c9ed05534021/assets/icons.png
 // @match        *://link4m.com/go/*
 // @match        *://*.link4m.com/go/*
 // @match        *://link4m.net/go/*
@@ -19,9 +19,9 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_setClipboard
-// @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/ztwskm-bypass@main/link4m/loader.user.js
-// @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/ztwskm-bypass@main/link4m/loader.user.js
-// @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwskm-bypass@ebb9582ac0719f035c4053ef4d430b3af87a2a7c/link4m/bypass.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
+// @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@ebb9582ac0719f035c4053ef4d430b3af87a2a7c/link4m/bypass.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
