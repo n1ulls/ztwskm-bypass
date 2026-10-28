@@ -56,12 +56,13 @@ jobs:
 
           SHA=$(git rev-parse --short HEAD)
           TS=$(date +%s)
-          BODY=$(printf -- '- @require → %s\n- @version → %s\n- purge jsDelivr caches' "$SHA" "$TS")
 
-          git commit \
-            -m "chore(link4m): sync loader to bypass.js@${SHA}" \
-            -m "$BODY" \
-            || { echo "::notice::Không có thay đổi, bỏ qua commit"; exit 0; }
+          git commit --no-verify --cleanup=verbatim -F - <<EOF || exit 0
+          chore(link4m): sync loader to bypass.js@${SHA}
+
+          - @require → ${SHA}
+          - @version → ${TS}
+          EOF
 
           git push
 
