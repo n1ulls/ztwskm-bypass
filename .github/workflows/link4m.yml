@@ -26,7 +26,7 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
-      - name: Get bot user id
+      - name: Bot
         id: bot
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -37,7 +37,7 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
 
-      - name: Update hash + version
+      - name: Update version
         run: |
           H=$(git rev-parse HEAD)
           V=$(date +%s)
@@ -53,7 +53,7 @@ jobs:
           git config user.name "${SLUG}[bot]"
           git config user.email "${BOT_ID}+${SLUG}[bot]@users.noreply.github.com"
           git add "$LOADER"
-          git commit -m "update version + hash" || exit 0
+          git commit -m "update version" || exit 0
           git push
 
       - name: Purge jsDelivr
