@@ -22,7 +22,6 @@
 // @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
 // @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
 // @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@09cae0f600636be75d9019895e5759c8774cb54b/link4m/bypass.js
-// @require      https://cdn.jsdelivr.net/npm/tesseract.js@7.0.0/dist/tesseract.min.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
