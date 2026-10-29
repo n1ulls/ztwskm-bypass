@@ -17,6 +17,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_setClipboard
+// @grant        GM_info
+// @grant        unsafeWindow
 // @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
 // @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
 // @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@030d5f37cc8f79e94043ab017b55ee3f2c9ddb69/link4m/bypass.js
