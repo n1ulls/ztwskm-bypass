@@ -1,1 +1,1 @@
-# script created by AI
+# Script created by AI
