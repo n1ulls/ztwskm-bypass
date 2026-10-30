@@ -58,7 +58,7 @@ jobs:
           TS=$(date +%s)
 
           git commit --no-verify --cleanup=verbatim -F - <<EOF || exit 0
-          chore(link4m): sync loader to bypass.js@${SHA}
+          🔄 chore(link4m): sync loader to bypass.js@${SHA}
 
           - @require → ${SHA}
           - @version → ${TS}
