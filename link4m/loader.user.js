@@ -2,7 +2,7 @@
 // @name         Link4m Bypass
 // @description  ...
 // @supportURL   https://discord.gg/bypass-link-rut-gonmeo-bypassmeobypass-com-1385559183163789445
-// @version      1793357845
+// @version      1793366480
 // @author       ...
 // @icon         https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@2ac1a187c8dcaaae4c6c76bf7f59c9ed05534021/assets/icons.png
 // @match        https://link4m.com/go/*
@@ -21,7 +21,7 @@
 // @grant        unsafeWindow
 // @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
 // @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@main/link4m/loader.user.js
-// @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@df677dc111a618ba7b9146f6eab470586d7c23be/link4m/bypass.js
+// @require      https://cdn.jsdelivr.net/gh/n1ulls/ztwsxn-bypass@cb56e8cb502580c7bf5e0d9d2ec007ca260d261d/link4m/bypass.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
